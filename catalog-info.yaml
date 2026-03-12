@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-org-profile
+  title: Ari GitHub Org Profile
+  description: >
+    Repositorio especial de la organización arigroup en GitHub. Contiene el perfil
+    público de la organización (profile/README.md) desplegado en github.com/arigroup.
+  annotations:
+    github.com/project-slug: arigroup/.github
+  tags:
+    - github
+    - org-profile
+    - infra
+spec:
+  type: tool
+  lifecycle: production
+  owner: arigroup
